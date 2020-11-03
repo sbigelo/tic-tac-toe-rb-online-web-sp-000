@@ -87,7 +87,6 @@ def turn(board)
 end
 
 def play(board)
-  input = turn(board)
   
 end
   
