@@ -88,6 +88,8 @@ end
 
 def play(board)
     turn(board) until over?(board) 
+    if won?(board) || draw?(board)
+      puts 
 end
 end
   
